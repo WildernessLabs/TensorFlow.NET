@@ -44,7 +44,7 @@ namespace Tensorflow
     /// </summary>
     public partial class c_api
     {
-        public const string TensorFlowLibName = "tensorflow";
+        public const string TensorFlowLibName = "Tensorflow.so";
 
         public static string StringPiece(IntPtr handle)
         {

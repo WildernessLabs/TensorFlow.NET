@@ -8,7 +8,7 @@ namespace Tensorflow
 {
     public class c_api_lite
     {
-        public const string TensorFlowLibName = "tensorflowlite_c";
+        public const string TensorFlowLibName = "Tensorflow.so";
 
         public static string StringPiece(IntPtr handle)
         {
